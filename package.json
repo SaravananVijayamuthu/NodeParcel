@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,15 @@
   },
   "homepage": "https://github.com/SaravananVijayamuthu/NodeParcel#readme",
   "dependencies": {
-    "moment": "^2.29.1"
+    "desandro-matches-selector": "^2.0.2",
+    "ev-emitter": "^1.1.1",
+    "fizzy-ui-utils": "^2.0.7",
+    "get-size": "^2.0.3",
+    "jquery": "^3.5.1",
+    "masonry-layout": "^4.2.2",
+    "moment": "^2.29.1",
+    "outlayer": "^2.1.1",
+    "parcel": "^1.12.4"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
